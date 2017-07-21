@@ -45,6 +45,81 @@ nav {
   padding-top: 5px;
 }
 
+section {
+  padding: 20px;
+}
+
+.home-title {
+  text-align: center;
+  line-height: 0.25;
+  padding: 20px;
+}
+
+.home-title h1 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
+.home-title h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 20px;
+  background-color: #2B2F26;
+  padding: 15px;
+  color: #F2F1E8;
+  font-size: 18px;
+}
+
+.home-content-top {
+  height: 370px;
+  width: 235px;
+  object-fit: cover;
+}
+
+#home-content-top-long {
+  height:370px;
+  width: 730px;
+  object-fit: cover;
+}
+
+.home-content-bottom {
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+}
+
+#home-content-bottom-rect {
+  height: 230px;
+  width: 430px;
+  object-fit: cover;
+}
+
+/* About Section CSS */
+ 
+.about-intro {
+  text-align: center;
+}
+.about-intro h1 {
+  font-size: 65px;
+  font-weight: 400;
+}
+
 footer {
   background-color: #2B2F26;
   color: white;
