@@ -45,7 +45,7 @@ nav {
   padding-top: 5px;
 }
 
-section {
+.home {
   padding: 20px;
 }
 
@@ -112,12 +112,11 @@ figcaption {
 
 /* About Section CSS */
 
-section {
+.about {
   width: 1278px;
 }
 
 .about-intro {
-  text-align: center;
   margin-left: 200px;
   margin-right: 200px;
 }
@@ -125,6 +124,7 @@ section {
 .about-intro h1 {
   font-size: 65px;
   font-weight: 400;
+  text-align: center;
 }
 
 .about-intro img {
@@ -179,6 +179,71 @@ section {
   height: 320px;
   width: 1278px;
   background-size: cover;
+}
+
+.about-facilities {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.about-facilities h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.about-facilities p {
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+div.about-facilities-pic {
+  float: right;
+  vertical-align: top;
+  display: inline-block;
+  text-align: left;
+  width: 160px;
+}
+
+.about-facilities-pic img {
+  width: 160px;
+  padding-bottom: 15px;
+}
+
+.about-facilities-pic span {
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 200;
+  color: #2B2F26;
+}
+
+.about-table {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+}
+
+.about-table h3 {
+  font-size: 30px;
+  font-weight: 300;
+}
+
+/* why won't this work to change every other background color??
+.about-table table:nthchild(2n+1) {
+  background-color: black;
+}*/
+
+.about-table table td {
+  border: 1px solid black;
+  border-collapse:collapse;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.about-table-head {
+  text-align:center;
 }
 
 footer {
