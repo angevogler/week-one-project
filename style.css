@@ -308,6 +308,7 @@ div.about-facilities-pic {
 .newsletter input:focus {
   border: none;
   box-shadow: 0;
+  outline: none;
   border-bottom: 3px solid #967343;
 }
 
