@@ -246,6 +246,55 @@ div.about-facilities-pic {
   text-align:center;
 }
 
+/* Newsletter Section CSS */
+
+.newsletter {
+  background-image: url(images/project-images/background-2.jpg);
+  background-size: cover;
+  height: 700px;
+}
+
+.newsletter div {
+  background-color: #FFFFFF;
+  width: 750px;
+  height: 380px;
+  text-align: center;
+  margin: 45px auto 115px auto;
+  padding: 50px 30px 50px 30px;
+}
+
+.newsletter h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.newsletter h2 {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter input {
+  border: none;
+  border-bottom: 3px solid #968772;
+  padding-top: 35px;
+  font-size: 22px;
+}
+
+.newsletter button {
+  background-color: #968772;
+  border: none;
+  font-size: 22px;
+  color: #F2F1E8;
+  height: 60px;
+  width: 150px;
+  margin: 30px auto 0px auto;
+}
+
 footer {
   background-color: #2B2F26;
   color: white;
