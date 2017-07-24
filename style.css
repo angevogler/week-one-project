@@ -29,9 +29,12 @@ nav {
   font-size: 18px;
   padding: 5px;
   margin: -8px;
+  width: 100%;
   text-transform: uppercase;
   display: flex;
   justify-content: start;
+  position: fixed;
+  box-shadow: 0px 0px 5px black;
 }
 
 .main-navigation a {
@@ -57,6 +60,7 @@ nav {
 /* ***************** HOME PAGE *********************** */
 .home {
   padding: 2%;
+  margin-top: 3%;
 }
 
 .home-title {
@@ -130,14 +134,23 @@ figcaption {
   width: 100%;
 }
 
-.about-intro {
-  margin-left: 12%;
-  margin-right: 12%;
-}
-
 .about h3 {
   font-size: 30px;
   font-weight: 300;
+}
+
+.about p {
+  font-size: 20px;
+  line-height: 2;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.about-intro {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 10%;
 }
 
 .about-intro h1 {
@@ -151,14 +164,6 @@ figcaption {
   width: 160px;
   padding-right: 30px;
   padding-bottom: 5px;
-}
-
-.about-intro p {
-  font-size: 20px;
-  line-height: 2;
-  text-align: left;
-  font-weight: 500;
-  margin-bottom: 50px;
 }
 
 #about-jump {
@@ -186,12 +191,6 @@ figcaption {
   margin-right: 12%;
 }
 
-.about-history p {
-  font-size: 20px;
-  line-height: 2;
-  font-weight: 500;
-}
-
 .about-break h1 {
   font-size: 70px;
   font-weight: 500;
@@ -203,17 +202,14 @@ figcaption {
   padding-top: 125px;
   padding-bottom: 125px;
   background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about-facilities {
   margin-left: 12%;
   margin-right: 12%;
-}
-
-.about-facilities p {
-  font-size: 20px;
-  line-height: 2;
-  font-weight: 500;
 }
 
 div.about-facilities-pic {
@@ -282,7 +278,7 @@ div.about-facilities-pic {
   width: 750px;
   height: 380px;
   text-align: center;
-  margin: 50px auto 115px auto;
+  margin: 125px auto 115px auto;
   padding: 50px 30px 50px 30px;
 }
 
