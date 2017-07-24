@@ -22,6 +22,7 @@ body {
   flex-direction: column;
 }
 
+/* ***************** NAVIGATION ********************* */
 nav {
   background-color:#FFFFFF;
   font-family: Robot, sans-serif;
@@ -39,14 +40,23 @@ nav {
   text-align: center;
 }
 
+.main-navigation a:hover {
+  color:#CD5D67;
+}
+
+.main-navigation a:active {
+  color: #968772;
+}
+
 #logo {
   height: 50px;
   margin-right: 500px;
   padding-top: 5px;
 }
 
+/* ***************** HOME PAGE *********************** */
 .home {
-  padding: 20px;
+  padding: 2%;
 }
 
 .home-title {
@@ -69,6 +79,7 @@ nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  width: 100%;
 }
 
 figure {
@@ -113,12 +124,17 @@ figcaption {
 /* About Section CSS */
 
 .about {
-  width: 1278px;
+  width: 100%;
 }
 
 .about-intro {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12%;
+  margin-right: 12%;
+}
+
+.about h3 {
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .about-intro h1 {
@@ -142,6 +158,14 @@ figcaption {
   margin-bottom: 50px;
 }
 
+#about-jump {
+  color:#968772;
+}
+
+#about-jump:hover {
+  color:#967343;
+}
+
 .about-intro-blockquote {
   border-left: 1px solid #2B2F26;
   font-size: 18px;
@@ -155,13 +179,8 @@ figcaption {
 }
 
 .about-history {
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.about-history h3 {
-  font-size: 30px;
-  font-weight: 300;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .about-history p {
@@ -174,21 +193,18 @@ figcaption {
   font-size: 70px;
   font-weight: 500;
   text-align: center;
+  vertical-align: middle;
   color: #F2F1E8;
   background-image: url(images/project-images/background-3.jpg);
-  height: 320px;
-  width: 1278px;
-  background-size: cover;
+  width: 100%;
+  padding-top: 125px;
+  padding-bottom: 125px;
+  background-size: 100%;
 }
 
 .about-facilities {
-  margin-left: 200px;
-  margin-right: 200px;
-}
-
-.about-facilities h3 {
-  font-size: 30px;
-  font-weight: 300;
+  margin-left: 12%;
+  margin-right: 12%;
 }
 
 .about-facilities p {
@@ -218,22 +234,20 @@ div.about-facilities-pic {
 }
 
 .about-table {
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 12%;
+  margin-right: 12%;
   padding-bottom: 50px;
 }
 
-.about-table h3 {
-  font-size: 30px;
-  font-weight: 300;
+.about-table table{
+  border-collapse: collapse;
 }
 
-/* why won't this work to change every other background color??
-.about-table table:nthchild(2n+1) {
-  background-color: black;
-}*/
+.about-table tr {
+  border-collapse: collapse;
+}
 
-.about-table table td {
+.about-table td {
   border: 1px solid black;
   border-collapse:collapse;
   padding: 15px;
@@ -242,6 +256,9 @@ div.about-facilities-pic {
   font-weight: 500;
 }
 
+.about-table-alt {
+  background-color:#f6e8da;
+}
 .about-table-head {
   text-align:center;
 }
@@ -260,7 +277,7 @@ div.about-facilities-pic {
   height: 380px;
   text-align: center;
   margin: 45px auto 115px auto;
-  padding: 50px 30px 50px 30px;
+  padding: 50px 30px 5git0px 30px;
 }
 
 .newsletter h1 {
@@ -285,6 +302,12 @@ div.about-facilities-pic {
   font-size: 22px;
 }
 
+.newsletter input:focus {
+  border: none;
+  box-shadow: 0;
+  border-bottom: 3px solid #967343;
+}
+
 .newsletter button {
   background-color: #968772;
   border: none;
@@ -295,6 +318,17 @@ div.about-facilities-pic {
   margin: 30px auto 0px auto;
 }
 
+.newsletter button:hover {
+  background-color: #967343;
+  color: #FFFFFF;
+}
+
+/*Button Background: #968772
+Button Background (Hover): #967343
+Button Text: #F2F1E8
+Button Text (Hover): #FFFFFF
+Input Border Bottom: #968772
+Input Border Bottom (Focus): #967343*/
 footer {
   background-color: #2B2F26;
   color: white;
